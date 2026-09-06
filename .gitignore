@@ -1,0 +1,18 @@
+# Embedded Python environment
+python_embeded/
+
+# Downloaded Hugging Face model weights and hub caches
+models/hub/
+models/xet/
+models/version_diffusers_cache.txt
+*.safetensors
+*.bin
+*.pt
+
+# Generated audio outputs (preserve folder with .gitkeep)
+output/*.wav
+
+# Runtime and Hugging Face cache
+cache/
+__pycache__/
+*.py[cod]
